@@ -49,9 +49,12 @@ void draw() {
   cursorcolor1 = color(0,green,0); 
   cursorcolor2 = color(0, 0, blue);
   //drawing part
-  //if (mousePressed) {
-    //fill(cursorcolor1);
-    //ellipse(mouseX, mouseY, 8, 8);
-  //}
-  
+  if (mousePressed) {
+    fill(cursorcolor1);
+    ellipse(mouseX, mouseY, 8, 8);
+  }
+  if (mousePressed) {
+    fill(cursorcolor2);
+    ellipse(mouseX, mouseY, 8, 8);
+  }
 }
